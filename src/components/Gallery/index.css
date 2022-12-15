@@ -1,0 +1,41 @@
+/* Write your code here. */
+.bg {
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 3vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-family: Roboto;
+}
+
+.mainImage {
+  border-radius: 2em;
+  width: 70vw;
+  height: 65vh;
+  align-self: center;
+}
+
+.heading {
+  color: #1e293b;
+  font-size: 32px;
+  margin-left: 10vw;
+}
+
+.para {
+  color: #64748b;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 10vw;
+  padding-top: 0%;
+}
+
+.thumnailList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-left: 6vw;
+}
